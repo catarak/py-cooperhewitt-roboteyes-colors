@@ -12,12 +12,9 @@ setup(
     description='',
     author='Cooper Hewitt Smithsonian Design Museum',
     url='https://github.com/cooperhewitt/py-cooperhewitt-roboteyes-colors',
-    dependency_links=[
-          'https://github.com/cooperhewitt/py-cooperhewitt-swatchbook/tarball/master#egg=cooperhewitt.swatchbook-0.3',
-      ],
     install_requires=[
         'roygbiv',
-        'cooperhewitt.swatchbook',
+        'cooperhewitt-swatchbook',
     ],
     packages=packages,
     scripts=[],
